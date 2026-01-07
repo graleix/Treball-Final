@@ -1,0 +1,23 @@
+#resultats h3 {
+    font-size: 1.4em;
+    margin-bottom: 0.5em;
+}
+
+#resultats ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+#resultats li {
+    margin-bottom: 4px;
+}
+
+#districtes {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#resultats p {
+    margin-top: 10px;
+    font-weight: bold;
+}
