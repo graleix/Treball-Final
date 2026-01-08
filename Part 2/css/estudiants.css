@@ -1,23 +1,56 @@
-#resultats h3 {
-    font-size: 1.4em;
-    margin-bottom: 0.5em;
+body {
+    width: 1000px;
+    margin: 2em auto;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4fdf9;
+    color: #333;
 }
 
-#resultats ul {
-    list-style-type: square;
-    margin-left: 20px;
+header {
+    font-size: 1.8em;
+    text-align: center;
+    background-color: #b8e0d2;
+    padding: 1.5em;
+    border-radius: 10px;
+    margin-bottom: 2em;
 }
 
-#resultats li {
-    margin-bottom: 4px;
+#carrega {
+    text-align: center;
+    margin-bottom: 2em;
 }
 
-#districtes {
-    margin-top: 10px;
-    padding: 5px;
+#exercicis {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
 }
 
-#resultats p {
-    margin-top: 10px;
-    font-weight: bold;
+#menu {
+    width: 30%;
+    background-color: #d6f5d6;
+    padding: 1.5em;
+    border-radius: 8px;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu ul li {
+    padding: 0.8em 0;
+    border-bottom: 1px solid #a3d9a5;
+}
+
+#contingut {
+    width: 70%;
+    background-color: #fffbe6;
+    padding: 1.5em;
+    border-radius: 8px;
+}
+
+#opcionsDistricte input {
+    margin-right: 1em;
 }
