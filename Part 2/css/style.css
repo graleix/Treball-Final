@@ -19,7 +19,7 @@ header {
 }
 #exercicis > #menu {
     width: 25%;
-    background-color: honeydew;
+    background-color: rgb(216, 255, 216);
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 1em;
 }
@@ -32,7 +32,7 @@ header {
 }
 #exercicis > #contingut {
     width: 75%;
-    background-color: lemonchiffon;
+    background-color: rgb(255, 249, 199);
     padding: 1em;
 }
 #opcionsDistricte > input {
