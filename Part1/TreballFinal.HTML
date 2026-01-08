@@ -3,23 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Formulari Part 1</title>
+
+    <!-- Enllaç al fitxer d'estils CSS -->
     <link rel="stylesheet" href="TreballFInal.CSS">
-    <link rel="stylesheet" href="TreballFinal.js">
+    <script src="TreballFinal.js" defer></script>
 </head>
 
 <body>
 
+<!-- Títol principal de la pàgina -->
 <h1>Formulari — Aleix Grañena Garcia i Edgar Llop Pallicé</h1>
 
+<!-- Contenidor principal del formulari -->
 <div class="contenidor">
 
+    <!-- Formulari amb identificador i bloqueig de l'enviament per defecte -->
     <form id="formulari" onsubmit="return false;">
 
+        <!-- Camp per introduir el nom -->
         <div class="camp">
             <label for="nom">Nom i cognoms:</label>
             <input type="text" id="nom">
         </div>
 
+        <!-- Selector per triar el rang d'edat -->
         <div class="camp">
             <label for="edat">Rang d'edats:</label>
             <select id="edat">
@@ -33,16 +40,19 @@
             </select>
         </div>
 
+        <!-- Camp per introduir el codi postal -->
         <div class="camp">
             <label for="cp">Codi postal:</label>
             <input type="text" id="cp" maxlength="5">
         </div>
 
+        <!-- Camp per introduir el correu electrònic -->
         <div class="camp">
             <label for="email">Correu electrònic:</label>
             <input type="text" id="email">
         </div>
 
+        <!-- Camp per introduir la contrasenya amb opció de mostrar-la -->
         <div class="camp">
             <label for="pass">Contrasenya:</label>
             <input type="password" id="pass">
@@ -51,6 +61,7 @@
             </label>
         </div>
 
+        <!-- Confirmació de la contrasenya amb opció de mostrar-la -->
         <div class="camp">
             <label for="pass2">Confirmar contrasenya:</label>
             <input type="password" id="pass2">
@@ -59,6 +70,7 @@
             </label>
         </div>
 
+        <!-- Casella per acceptar la política de privacitat -->
         <div class="camp">
             <label class="inline">
                 <input type="checkbox" id="privacitat">
@@ -66,6 +78,7 @@
             </label>
         </div>
 
+        <!-- Botons per esborrar o enviar el formulari -->
         <div class="botons">
             <button type="button" id="esborrar">Esborrar</button>
             <button type="button" id="enviar">Enviar</button>
@@ -73,11 +86,10 @@
 
     </form>
 
+    <!-- Zona on es mostraran els resultats o missatges -->
     <div id="resultat"></div>
 
 </div>
-
-<script src="TreballFinal.js"></script>
 
 </body>
 </html>
